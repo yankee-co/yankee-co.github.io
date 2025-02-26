@@ -4,7 +4,7 @@ class SpecialHeader extends HTMLElement {
             <div class = "bg-light border-bottom" style="border-color: #cbcbcb;">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html">Головна</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Головна</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="surveys.html">Опитування</a>
