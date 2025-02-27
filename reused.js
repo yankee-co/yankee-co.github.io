@@ -10,6 +10,9 @@ class SpecialHeader extends HTMLElement {
                         <a class="nav-link" href="surveys.html">Опитування</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="create.html">Створити опитування</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="register.html">Реєстрація</a>
                     </li>
                     <li class="nav-item">
@@ -32,9 +35,10 @@ class SpecialFooter extends HTMLElement {
         border-opacity-0
         border-top
         text-center
-        fw-lighter"
+        fw-lighter
+        "
         style="line-height: 20%; border-color: #cbcbcb;">
-            <div class="container pt-3">
+            <div class="container pt-3 pb-0">
                 <span style = "opacity:75%;">
                 <p class="fs-4">Землянський Едуард</p>
                 <p class="fs-5">КВ-22</p>
