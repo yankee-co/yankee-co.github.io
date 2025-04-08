@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script type = "module" src="js/main.js"></script>
     <script src="reused.js"></script>
     <special-header></special-header>
     <div class="container my-auto py-5" style="max-width: max-content; min-width: 30%">
         <p class="fs-3 text-center fw-bold">Вхід</p>
-        <form>
+        <form id = 'loginForm'>
             <div class="mb-3">
                 <label class="form-label" for="inputEmail">Пошта</label>
                 <input type="email" class="form-control" id="inputEmail" placeholder="Пошта">
@@ -28,7 +29,7 @@
                     <label class="form-check-label" for="checkRemember">Запам'ятати мене</label>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Увійти</button>
+            <button type="submit" class="btn btn-primary" id = "loginButton">Увійти</button>
         </form>
         <div class="container w-100 mt-5 text-center">
             <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="register.html">

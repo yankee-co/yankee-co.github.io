@@ -10,10 +10,11 @@
     </head>
 <body>
     <script src="reused.js"></script>
+    <script type = "module" src="js/main.js"></script>
     <special-header></special-header>
     <div class="container my-auto py-5" style="max-width: max-content; min-width: 30%">
         <p class="fs-3 w-100 text-center fw-bold">Реєстрація</p>
-        <form>
+        <form id = 'registerForm'>
             <div class="mb-3">
                 <label class="form-label" for="inputEmail">Пошта</label>
                 <input type="email" class="form-control" id="inputEmail" placeholder="Пошта">
@@ -24,7 +25,7 @@
             </div>
             <div class="mb-3">
                 <label class="form-label" for="inputPassword">Підтвердіть пароль</label>
-                <input type="password" class="form-control" id="inputPassword" placeholder="Введіть пароль ще раз">
+                <input type="password" class="form-control" id="inputPasswordAgain" placeholder="Введіть пароль ще раз">
             </div>
             <div class="row">
                 <div class="col-12">
@@ -44,7 +45,7 @@
                     <input id="startDate" class="form-control" type="date" />
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Зареєструватись</button>
+            <button type="submit" class="btn btn-primary mt-3" id = "registerButton">Зареєструватись</button>
         </form>
     </div>
     <special-footer class = "mt-auto"></special-footer>
